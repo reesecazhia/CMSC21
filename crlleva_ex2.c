@@ -89,6 +89,9 @@ int main () //this is the main function
 		    	scanf(" %c", &ans); //changes "ans" variable value
 		    	break;
 
+		    case 4: 
+		    	printf("Added for testing");
+
 		    default: //If the user input an integer not part of the choices, this will be shown
 		    	printf("\nInvalid choice. Try again. \n");
 		}
