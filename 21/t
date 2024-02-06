@@ -1,0 +1,12 @@
+int main(){
+char name[20], *name2 = “name”;
+char *prompt = “What is your name?”;
+
+printf(“%s”,prompt);
+scanf(“%s”,name);
+scanf(“%s”,name2); //will this work?
+
+printf(“Your name is %s.\n”,name);
+
+return 0;
+}
